@@ -1,8 +1,107 @@
-<!DOCTYPE html> 
-    <head>
-        <title>
-            Jimena Galeano Reyes
-        </title>
-    </head>
-    <body>
-    </body>
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jimena Galeano Reyes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            background-color: black; 
+        }
+
+        .hero-img {
+            width: 100%;
+            height: 115vh;      /* makes image big but neat */
+            object-fit: cover;
+            margin: 0;
+            padding: 0;
+        }
+
+        .title-box {
+            padding-left: 40px;   /* move title away from image a bit */
+        }
+
+        .title-box h1 {
+            font-size: 5rem;
+            font-weight: 700;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Jimena Galeano</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="Education">
+                        <a class="nav-link active" aria-current="page" href="#">Education</a>
+                    </li>
+                    <li class="Skills">
+                        <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#composeModal">Skills</a>
+                    </li>
+                    <li class="Projects">
+                        <a class="nav-link" href="#">Projects</a>
+                    </li>
+                    <li class="Contact">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="Experience">
+                        <a class="nav-link" href="#">Experience</a>
+                    </li>
+                    <li class="Fun Facts">
+                        <a class="nav-link" href="#">Fun Facts</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--
+    <h1 class="left-align-text mt-5 me-5">
+    My       
+    </h1>
+    <h1 class="left-align-text mt-8 me-5">
+    Porfolio
+    </h1>
+
+    <div class="d-flex justify-content-right mt-5 me-5">
+
+        <div class="d-flex align-items-start"></div>
+
+        <img src="Jimena_Galeano.JPG" alt="User Avatar" class="square me-3" width="500" height="700">
+    </div>
+-->
+    <!-- HERO SECTION -->
+<div class="container-fluid p-0 m-0">   <!-- remove ALL padding + margin -->
+    <div class="row g-0 p-0 m-0">       <!-- remove spacing between columns -->
+        
+        <!-- LEFT SIDE — Image -->
+        <div class="col-md-7 p-0 m-0">  <!-- no padding, no margin -->
+            <img src="Jimena_Galeano.JPG" class="hero-img" alt="User Avatar">
+        </div>
+
+        <!-- RIGHT SIDE — Title -->
+        <div class="col-md-5 d-flex align-items-center p-0">
+            <div class="title-box">
+                <h1>My ─────</h1>
+                <h1>Portfolio</h1>
+            </div>
+        </div>
+
+    </div>
+</div>
+</body>
