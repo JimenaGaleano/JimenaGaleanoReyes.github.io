@@ -14,7 +14,7 @@
         }
 
         .navbar {
-            background-color: black;
+            background-color: #0A1A2F;
         }
 
         .hero-img {
@@ -58,43 +58,31 @@
                         <a class="nav-link" href="#skills">Skills</a>
                     </li>
                     <li class="Projects">
-                        <a class="nav-link" href="#">Projects</a>
-                    </li>
-                    <li class="Contact">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#Projects">Projects</a>
                     </li>
                     <li class="Experience">
-                        <a class="nav-link" href="#">Experience</a>
+                        <a class="nav-link" href="#Experience">Experience</a>
+                    </li>
+                    <li class="Contact">
+                        <a class="nav-link" href="#Contact">Contact</a>
                     </li>
                     <li class="Fun Facts">
-                        <a class="nav-link" href="#">Fun Facts</a>
+                        <a class="nav-link" href="#FunFacts">Fun Facts</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <!--
-    <h1 class="left-align-text mt-5 me-5">
-    My       
-    </h1>
-    <h1 class="left-align-text mt-8 me-5">
-    Porfolio
-    </h1>
 
-    <div class="d-flex justify-content-right mt-5 me-5">
 
-        <div class="d-flex align-items-start"></div>
 
-        <img src="Jimena_Galeano.JPG" alt="User Avatar" class="square me-3" width="500" height="700">
-    </div>
--->
-    <!-- HERO SECTION -->
+    <!-- hero section -->
     <div class="container-fluid p-0 m-0"> <!-- remove ALL padding + margin -->
         <div class="row g-0 p-0 m-0"> <!-- remove spacing between columns -->
 
             <!-- LEFT SIDE — Image -->
             <div class="col-md-6 p-0 m-0"> <!-- no padding, no margin -->
-                <img src="Jimena_Galeano.JPG" class="hero-img" alt="User Avatar">
+                <img src="pictures/Jimena_Galeano.JPG" class="hero-img" alt="User Avatar">
             </div>
 
             <!-- RIGHT SIDE — Title -->
@@ -102,36 +90,75 @@
                 <div class="title-box">
                     <h1>My</h1>
                     <h1>Portfolio</h1>
+                    <br>
+                    <div class="col-10">
+                        <p>
+                            I’m a Data Science major and Political Science minor from Guatemala, and I’m
+                            passionate about qualitative research in the social sciences, especially when
+                            it relates to Latin America. This space brings together the work I’ve done and
+                            the experiences that shape how I understand the world around me.
+                        </p>
+                    </div>
                 </div>
             </div>
 
         </div>
     </div>
 
-    <!-- EDUCATION SECTION -->
+    <!-- education -->
     <div id="education" class="container my-5">
-        <div class="p-5 rounded" style="background-color: black; color: white;">
+        <div class="p-5 rounded" style="background-color: #0A1A2F; color: #FAFAFA;">
 
             <!-- Title inside the black box -->
             <h1 class="text-center mb-5">EDUCATION</h1>
 
             <div class="row g-4">
-
-                <!-- High School Card -->
+                <!-- UWC -->
                 <div class="col-md-6">
                     <div class="p-4 rounded" style="background-color: white; color: black;">
-                        <h2 class="text-center fw-bold">High School</h2>
-                        <p>UWC Red Cross Nordic, Flekke, Norway<br>International Baccalaureate <br> 2022-2024 <br> Awarded scholarship
-                            Dare to Dream </p>
+                        <div class="row">
+                            <h2 class="text-center fw-bold">High School</h2>
+                            <!-- TEXT -->
+                            <div class="col-8">
+                                <p>
+                                    UWC Red Cross Nordic, Flekke, Norway<br>
+                                    International Baccalaureate<br>
+                                    2022-2024<br>
+                                    Awarded scholarship Dare to Dream
+                                </p>
+                            </div>
+
+                            <!-- IMAGE -->
+                            <div class="col-4 d-flex justify-content-center align-items-center">
+                                <img src="pictures/uwc_logo.jpeg" alt="UWC Logo"
+                                    style="width: 100%; max-width: 95px; height: auto; border-radius: 8px;">
+                            </div>
+
+                        </div>
                     </div>
                 </div>
 
-                <!-- University Card -->
+                <!-- slu -->
                 <div class="col-md-6">
                     <div class="p-4 rounded" style="background-color: white; color: black;">
-                        <h2 class="text-center fw-bold">University</h2>
-                        <p>St. Lawrence University, Canton, NY<br>Data Science Major<br>Political Science
-                            Minor<br>2024–2028</p>
+                        <div class="row">
+                            <h2 class="text-center fw-bold">College</h2>
+                            <!-- TEXT  -->
+                            <div class="col-8">
+                                <p>St. Lawrence University, Canton, NY<br>
+                                    Data Science Major<br>
+                                    Political Science Minor<br>
+                                    2024–2028
+                                </p>
+                            </div>
+
+                            <!-- IMAGE -->
+                            <div class="col-4 d-flex justify-content-center align-items-center">
+                                <img src="pictures/slu_logo.jpeg" alt="SLU Logo"
+                                    style="width: 100%; max-width: 95px; height: auto; border-radius: 8px;">
+                            </div>
+
+                        </div>
                     </div>
                 </div>
 
@@ -139,22 +166,168 @@
         </div>
     </div>
 
-    <!-- SKILLS SECTION -->
-    <div id="skills" class="container my-4">
-        <div class="p-4 rounded" style="border: 4px solid black; background-color: transparent;">
+    <div id="skills" class="container my-5">
+        <div class="p-5 rounded" style="border: 4px solid white; background-color: transparent;">
 
-            <h1 class="text-center mb-4" style="color: black;">Skills</h1>
+            <h1 class="text-center mb-5" style="color: black;">SKILLS</h1>
+
+            <div class="row justify-content-start text-center">
+
+
+                <!-- Programming Languages -->
+                <h3 class="mt-4 mb-4">Programming Languages</h3>
+                <div class="d-flex flex-wrap justify-content-center gap-4 mb-4">
+                    <img src="pictures/skills/java.jpeg" alt="Java Logo" style="height:100px; border-radius:8px;">
+                    <img src="pictures/skills/python.jpeg" alt="Python Logo" style="height: 85px; border-radius:8px;">
+                </div>
+
+                <!-- Web Development -->
+                <h3 class="mt-4 mb-4">Web Development</h3>
+                <div class="d-flex flex-wrap justify-content-center gap-4 mb-4">
+                    <img src="pictures/skills/HTML.jpeg" alt="HTML Logo" style="height:85px; border-radius:8px;">
+                    <img src="pictures/skills/CSS.png" alt="CSS Logo" style="height:100px; border-radius:8px;">
+                </div>
+
+                <!-- Tools -->
+                <h3 class="mt-4 mb-4">Tools</h3>
+                <div class="d-flex flex-wrap justify-content-center gap-4 mb-4">
+                    <img src="pictures/skills/gifhub.jpeg" alt="GitHub Logo" style="height:100px; border-radius:8px;">
+                    <img src="pictures/skills/VS code.jpeg" alt="VS Code Logo" style="height:90px; border-radius:8px;">
+                </div>
+
+                <!-- Software & Tools: Excel, Minitab, Google Workspace-->
+                <h3 class="mt-4 mb-4">Software & Tools</h3>
+                <div class="d-flex flex-wrap justify-content-center gap-4 mb-4">
+                    <img src="pictures/skills/excel.jpeg" alt="Excel Logo" style="height:100px; border-radius:8px;">
+                    <img src="pictures/skills/minitab.jpeg" alt="Minitab Logo" style="height:130px; border-radius:8px;">
+                    <img src="pictures/skills/google.jpeg" alt="Google Workspace Logo"
+                        style="height:110px; border-radius:8px;">
+                </div>
+
+                <!-- Editing: ideo editing (Capcut), Photo editing (Canva, Photoshop), Audio editing
+            (Adobe Audition)-->
+                <h3 class="mt-4 mb-4">Editing</h3>
+                <div class="d-flex flex-wrap justify-content-center gap-4 mb-4">
+                    <img src="pictures/skills/lightroom.jpeg" alt="lightroom Logo"
+                        style="height:100px; border-radius:8px;">
+                    <img src="pictures/skills/audition.jpeg" alt="Audio Logo" style="height:100px; border-radius:8px;">
+                    <img src="pictures/skills/canva.jpeg" alt="Canva Logo" style="height:100px; border-radius:8px;">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects -->
+    <div id="Projects" class="container my-5">
+        <div class="p-5 rounded" style="background-color: #0A1A2F; color: white;">
+
+            <!-- Title inside the black box -->
+            <h1 class="text-center mb-5">PROJECTS</h1>
+
+            <div class="row g-4">
+
+                <!-- Project 1 -->
+                <div class="col-md-6">
+                    <div class="p-4 rounded" style="background-color: white; color: black;">
+                        <h2 class="text-center fw-bold">Merequetengue Website</h2>
+                        <p class="text-center">
+                            <a class="text-center" href="https://jimenagaleano.github.io/jekyll-example/">Visit
+                                Merequetengue</a>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="col-md-6">
+                    <div class="p-4 rounded" style="background-color: white; color: black;">
+                        <h2 class="text-center fw-bold">Learning How to Built a Website</h2>
+                        <p class="text-center">
+                            <a class="text-center" href="https://jimenagaleano.github.io/cs3017-f25/">First try</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Experience -->
+    <div id="Experience" class="container my-4">
+        <div class="p-4 rounded" style="border: 4px solid #0A1A2F; background-color: transparent;">
+
+            <h1 class="text-center mb-4" style="color: black;">EXPERIENCE</h1>
 
             <!-- Content goes here -->
             <p class="text-left" style="color: black;">
-                <strong> - Programming Languages:</strong> Python, JavaScript<br>
-                <strong>- Web Development: </strong> HTML, CSS, Bootstrap <br>
-                <strong>- Tools: </strong> Git, VS Code <br> 
-                <strong>- Languages: </strong> English (Fluent), Spanish (Native), Italian (Begginer) <br>
-                <strong>- Software & Tools: </strong> Excel, Minitab, Google Workspace, Microsoft Office <br> 
-                <strong>- Editing: </strong> Video editing (Capcut), Photo editing (Canva, Photoshop), Audio editing (Adobe Audition)
+                <strong> Student Activities Information Desk, </strong> St. Lawrence University, Aug 2025 - Present<br>
+                Coordinated event operations by helping with room reservations, event setups, and audiovisual
+                equipment.<br>
+                Organize sign-outs for student organization resources, including keys, games, and art supplies.<br>
+                Offered information and assistance to students, faculty, and visitors regarding campus events, services,
+                and facilities.
             </p>
 
+            <p class="text-left" style="color: black;">
+                <strong> Cashier and Café Attendant, </strong> Brewer Bookstore, Aug 2024 - Present<br>
+                Deliver exceptional customer service by addressing inquiries and resolving issues in a professional
+                manner.<br>
+                Conduct inventory checks and assist in managing stock levels across store & locate and organize books
+                and merchandise using store’s database system.<br>
+                Prepare and serve beverages in café, ensuring quality service and customer satisfaction.
+            </p>
+
+            <p class="text-left" style="color: black;">
+                <strong> Teacher Assistant in Economics, </strong> St. Lawrence University, Jan 2025 - May 2025<br>
+                Graded assignments, quizzes, and exams for an introductory economics course, ensuring consistency and
+                fairness.<br>
+                Conducted review sessions and provide individualized academic support to students during office
+                hours.<br>
+                Collated with class preparation, materials organization, and organizing course-related logistics.
+            </p>
+
+            <p class="text-left" style="color: black;">
+                <strong> Food Runner, </strong> Hotel Havila Geiranger, May 2024 - Jul 2024<br>
+                Served three-course meals in a detail-oriented, high-volume restaurant while maintaining exceptional
+                customer service and operational efficiency.<br>
+                Collaborated closely with servers and kitchen staff in a fast-paced environment to ensure timely and
+                accurate meal delivery.
+            </p>
         </div>
     </div>
+
+    <!-- Contact -->
+    <div id="Contact" class="container my-5">
+        <div class="p-5 rounded" style="background-color: #0A1A2F; color: white;">
+
+            <!-- Title inside the black box -->
+            <h1 class="text-center mb-5">CONTACT</h1>
+
+            <div class="row g-4">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="a58d2346-733f-4d36-a04f-f920d057d0e8">
+                    <label for="name"> Name: </label>
+                    <input type="text" name="name" id="name">
+
+                    <br> <br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email">
+
+                    <br> <br>
+
+
+                    <label for="message">Message: </label>
+                    <input type="text" name="message" id="message">
+
+                    <br> <br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- What I am looking for 
+     How to incorporate differet fonts 
+     How to make animations -->
+
 </body>
